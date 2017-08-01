@@ -12,11 +12,13 @@ export default (webpackConfig) => {
   // config.entry = 'xxx/xxx.js';
   // 修改 plugins（修改 ＝ 先删除现有的，再添加新的）
   // config.plugins = config.plugins.filter(plugin => !(plugin.filename && plugin.id));
+  config.plugins = config.plugins.filter(plugin => plugin.constructor.name !== 'LoaderOptionsPlugin');
   // config.plugins.push(
   //   new ExtractTextPlugin({
   //     filename: '[name]-[contenthash:8].css',
   //     allChunks: true
   //   })
   // )
+
   return config;
 };

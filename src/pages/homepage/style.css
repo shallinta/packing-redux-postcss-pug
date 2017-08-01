@@ -1,0 +1,14 @@
+@reset-global pc;
+
+:root {
+  --color-heading: #06f;
+  --hColorBlue: {
+    color: #fff;
+    font-size: 32px;
+  }
+}
+
+h2 {
+  @apply --hColorBlue;
+  background: var(--color-heading);
+}

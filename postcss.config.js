@@ -1,3 +1,7 @@
 module.exports = {
-  parser: false
+  parser: false,
+  plugins: {
+    'postcss-cssnext': {},
+    'postcss-css-reset': {}
+  }
 };
