@@ -1,5 +1,7 @@
 # packing-redux-postcss-pug
 
+Front-end developmnt environment which includes react, redux, postcss, pug template and will be built with webpack. It can also start a server at localhost with koa and mock api data.
+
 ## 常用命令
 
 1. 启动开发模式
@@ -58,7 +60,7 @@
 ├── .eslintrc                           # eslint配置
 ├── package.json
 ├── pom.xml                             # maven配置
-└── README.md                   
+└── README.md
 ```
 
 ## 约定
